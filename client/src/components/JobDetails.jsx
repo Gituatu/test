@@ -17,7 +17,7 @@ const JobDetails = () => {
   const [job, setJob] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/job/${id}`)
+    fetch(`https://test-bz7hejocd-gituatus-projects.vercel.app/job/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setJob(data.job);
