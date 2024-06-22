@@ -13,7 +13,7 @@ export const UserContextProvider = ({ children }) => {
 
   //Function to fetch user data
   const fetchUser = async () => {
-    const response = await fetch("https://test-bz7hejocd-gituatus-projects.vercel.app/profile", {
+    const response = await fetch("https://test-rho-five-19.vercel.app/profile", {
       credentials: "include",
     });
     const data = await response.json();
@@ -23,7 +23,7 @@ export const UserContextProvider = ({ children }) => {
   const Logout = async () => {
     try {
       const response = await fetch(
-        "https://test-bz7hejocd-gituatus-projects.vercel.app/logout",
+        "https://test-rho-five-19.vercel.app/logout",
         {
           method: "GET",
           headers: {
