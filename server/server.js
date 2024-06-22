@@ -14,7 +14,7 @@ app.use(Express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://test-bz7hejocd-gituatus-projects.vercel.app"],
+    origin: ["https://test-rho-five-19.vercel.app"],
     credentials: true,
   })
 );
