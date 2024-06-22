@@ -19,7 +19,7 @@ const Register = () => {
     try {
       const body = { name, email, password, profilePic, resume };
       const response = await fetch(
-        "http://localhost:5000/register",
+        "https://test-bz7hejocd-gituatus-projects.vercel.app/register",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
