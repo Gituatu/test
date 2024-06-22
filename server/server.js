@@ -14,7 +14,7 @@ app.use(Express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://test-bz7hejocd-gituatus-projects.vercel.app"],
     credentials: true,
   })
 );
