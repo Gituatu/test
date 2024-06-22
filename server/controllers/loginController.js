@@ -43,7 +43,7 @@ const loginController = async (req, res) => {
     res
       .cookie("token", token, {
         expires: new Date(Date.now() + 86400000),
-        domain: "http://localhost:5173",
+        domain: "https://test-bz7hejocd-gituatus-projects.vercel.app",
       })
       .status(200)
       .json({
