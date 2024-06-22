@@ -18,7 +18,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const body = { email, password };
-      const response = await fetch("https://test-bz7hejocd-gituatus-projects.vercel.app/login", {
+      const response = await fetch("https://test-rho-five-19.vercel.app/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
