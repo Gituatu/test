@@ -10,7 +10,7 @@ authRoute.post("/login", loginController);
 authRoute.get("/logout", (req, res) => {
   try {
     res.clearCookie("token", {
-      domain: "https://test-bz7hejocd-gituatus-projects.vercel.app",
+      domain: "test-rho-five-19.vercel.app",
     });
     res.status(200).json("Logged out successfully");
   } catch (err) {
