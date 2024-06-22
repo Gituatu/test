@@ -17,7 +17,7 @@ const CreateJob = () => {
     e.preventDefault();
     try {
       const body = { company, position, workLocation, locationType };
-      await fetch("http://localhost:5000/addJobs", {
+      await fetch("https://test-bz7hejocd-gituatus-projects.vercel.app/addJobs", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
