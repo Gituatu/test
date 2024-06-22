@@ -20,7 +20,7 @@ const AllJobs = () => {
 
   const getJobs = async () => {
     const { data } = await axios.get(
-      "http://localhost:5000/getJobs",
+      "https://test-bz7hejocd-gituatus-projects.vercel.app/getJobs",
       {
         params: { page: page, size: LIMIT },
       }
