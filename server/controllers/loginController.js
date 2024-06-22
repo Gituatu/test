@@ -43,7 +43,7 @@ const loginController = async (req, res) => {
     res
       .cookie("token", token, {
         expires: new Date(Date.now() + 86400000),
-        domain: "https://test-rho-five-19.vercel.app",
+        domain: "test-rho-five-19.vercel.app",
       })
       .status(200)
       .json({
